@@ -1,2 +1,19 @@
-npm init -y
-npm install express body-parser cors firebase-admin openai express-validator
+{
+  "name": "saarthi-backend",
+  "version": "1.0.0",
+  "description": "AI-powered backend for digital wellbeing app Saarthi",
+  "main": "node.js",
+  "scripts": {
+    "start": "node node.js"
+  },
+  "author": "Pawan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "firebase-admin": "^11.10.1",
+    "openai": "^4.26.0"
+  }
+}
